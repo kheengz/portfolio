@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang='en' data-theme='light'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<meta name='description' content='Kingsley Chinaka - Senior Software Engineer and AI Platform Engineer in Boston, MA.'>
+<title>Kingsley Chinaka - Software &amp; AI Platform Engineer</title>
+<script is:inline>try{var t=localStorage.getItem('kc-theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.dataset.theme=t}catch(e){}</script>
+<style is:global>
+:root{--bg:#fafafa;--sf:#ffffff;--tx:#18181b;--mut:#5b6270;--ln:#e4e7ec;--ac:#2563eb;--ac-t:#ffffff;--sh:rgba(0,0,0,.08)}
+html[data-theme='dark']{--bg:#0f1115;--sf:#171b22;--tx:#e8eaf0;--mut:#98a0ac;--ln:#272d36;--ac:#7aa2ff;--ac-t:#0f1115;--sh:rgba(0,0,0,.4)}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--tx);line-height:1.6;transition:background .2s,color .2s}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+.nav{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--ln)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.brand{font-weight:700;text-decoration:none;color:var(--tx);font-size:.98rem}
+.nav-links{display:flex;gap:16px;align-items:center}
+.nav-links a{color:var(--mut);text-decoration:none;font-size:.95rem}
+.nav-links a:hover{color:var(--ac)}
+.btn-theme{background:var(--sf);border:1px solid var(--ln);color:var(--tx);border-radius:8px;padding:6px 12px;cursor:pointer;font-size:.85rem;font-family:inherit}
+.btn-theme:hover{border-color:var(--ac);color:var(--ac)}
+section{padding:60px 0}
+.eyebrow{color:var(--ac);font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:.78rem}
+h1{font-size:clamp(2rem,5vw,3rem);line-height:1.15;margin:8px 0 4px}
+h2{font-size:1.55rem;margin:4px 0 20px}
+h3{font-size:1.05rem}
+p{margin:0}
+.lead{color:var(--mut);max-width:660px;font-size:1.06rem;margin-top:10px}
+.meta{color:var(--mut);font-size:.95rem;margin-top:12px}
+.cta{display:flex;gap:12px;margin-top:24px;flex-wrap:wrap}
+.btn{display:inline-block;padding:10px 18px;border-radius:10px;text-decoration:none;font-weight:600;font-size:.95rem;border:1px solid var(--ln);color:var(--tx);background:var(--sf);transition:transform .15s}
+.btn.primary{background:var(--ac);color:var(--ac-t);border-color:var(--ac)}
+.btn:hover{transform:translateY(-1px)}
+.about-copy{color:var(--mut);max-width:720px}
+.about-copy strong{color:var(--tx)}
+.chip-group{margin-top:22px}
+.chip-label{font-weight:600;font-size:.9rem;margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--sf);border:1px solid var(--ln);border-radius:999px;padding:4px 12px;font-size:.83rem;color:var(--mut)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.card{background:var(--sf);border:1px solid var(--ln);border-radius:14px;padding:20px;transition:transform .15s ease,box-shadow .15s ease;display:flex;flex-direction:column;gap:8px}
+.card:hover{transform:translateY(-3px);box-shadow:0 8px 24px var(--sh)}
+.card .role{color:var(--ac);font-size:.82rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+.card p{color:var(--mut);font-size:.92rem}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:6px}
+.tag{font-size:.74rem;border:1px solid var(--ln);border-radius:6px;padding:2px 8px;color:var(--mut)}
+.card-link{color:var(--ac);text-decoration:none;font-weight:600;font-size:.9rem}
+.card-link:hover{text-decoration:underline}
+.contact-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:32px}
+ul.links{list-style:none;display:flex;flex-direction:column;gap:12px}
+ul.links a{color:var(--tx);text-decoration:none;border-bottom:1px dotted var(--mut);padding-bottom:1px}
+ul.links a:hover{color:var(--ac);border-color:var(--ac)}
+ul.links span.lbl{color:var(--mut);font-size:.85rem;display:block}
+form{display:flex;flex-direction:column;gap:12px;background:var(--sf);border:1px solid var(--ln);border-radius:14px;padding:20px}
+input,textarea{background:var(--bg);border:1px solid var(--ln);border-radius:10px;padding:12px;color:var(--tx);font:inherit;width:100%}
+input:focus,textarea:focus{outline:2px solid var(--ac);border-color:transparent}
+textarea{min-height:120px;resize:vertical}
+footer{border-top:1px solid var(--ln);padding:24px 0;color:var(--mut);font-size:.9rem;text-align:center;margin-top:20px}
+@media(max-width:800px){.contact-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.nav-links{gap:10px}.nav-links a.hide-s{display:none}section{padding:44px 0}}
+</style>
+</head>
+<body>
+<header class='nav'>
+<div class='wrap'>
+<a class='brand' href='#top'>Kingsley Chinaka</a>
+<nav class='nav-links' aria-label='Main navigation'>
+<a href='#about'>About</a>
+<a href='#portfolio'>Portfolio</a>
+<a href='#contact' class='hide-s'>Contact</a>
+<button id='themeBtn' class='btn-theme' type='button' aria-label='Toggle light and dark theme'>Theme</button>
+</nav>
+</div>
+</header>
+<main>
+<section id='top'>
+<div class='wrap'>
+<p class='eyebrow'>Portfolio</p>
+<h1>Kingsley Chinaka</h1>
+<p class='lead'>Senior Software Engineer and AI Platform Engineer. I build scalable full-stack platforms, distributed backend systems, and cloud-native applications - lately focused on Generative and Agentic AI, LLM-powered workflows, and autonomous task orchestration.</p>
+<p class='meta'>Boston, MA · 6+ years shipping production software</p>
+<div class='cta'>
+<a class='btn primary' href='mailto:kheengz@gmail.com'>Get in touch</a>
+<a class='btn' href='https://github.com/kheengz' target='_blank' rel='noopener'>GitHub</a>
+<a class='btn' href='https://www.linkedin.com/in/kingsley-chinaka' target='_blank' rel='noopener'>LinkedIn</a>
+</div>
+</div>
+</section>
+<section id='about'>
+<div class='wrap'>
+<p class='eyebrow'>About</p>
+<h2>Who I am</h2>
+<p class='about-copy'>I am a passionate software engineer who loves solving hard problems, with 6+ years building scalable platforms using <strong>Node.js, TypeScript, React, and AWS</strong>. Today my focus is <strong>AI Platform Engineering</strong> - combining production-grade architecture with Generative and Agentic AI to build intelligent, reliable systems at scale. Off the keyboard, I love jogging and exploring new places.</p>
+<div class='chip-group'>
+<p class='chip-label'>Backend</p>
+<div class='chips'><span class='chip'>Node.js</span><span class='chip'>TypeScript</span><span class='chip'>NestJS</span><span class='chip'>Express</span><span class='chip'>Laravel</span><span class='chip'>GraphQL</span><span class='chip'>REST APIs</span><span class='chip'>Microservices</span><span class='chip'>Event-Driven Architecture</span></div>
+</div>
+<div class='chip-group'>
+<p class='chip-label'>Frontend</p>
+<div class='chips'><span class='chip'>React</span><span class='chip'>Next.js</span><span class='chip'>Redux</span></div>
+</div>
+<div class='chip-group'>
+<p class='chip-label'>AI Engineering</p>
+<div class='chips'><span class='chip'>OpenAI API</span><span class='chip'>Anthropic Claude</span><span class='chip'>AI Agents</span><span class='chip'>Prompt Engineering</span><span class='chip'>MCP</span><span class='chip'>Function Calling</span><span class='chip'>Structured Outputs</span></div>
+</div>
+<div class='chip-group'>
+<p class='chip-label'>Cloud &amp; DevOps</p>
+<div class='chips'><span class='chip'>AWS</span><span class='chip'>Google Cloud</span><span class='chip'>Docker</span><span class='chip'>GitHub Actions</span><span class='chip'>CI/CD</span><span class='chip'>Datadog</span><span class='chip'>Cloudflare</span></div>
+</div>
+<div class='chip-group'>
+<p class='chip-label'>Databases &amp; Messaging</p>
+<div class='chips'><span class='chip'>PostgreSQL</span><span class='chip'>MongoDB</span><span class='chip'>MySQL</span><span class='chip'>MSSQL</span><span class='chip'>Redis</span><span class='chip'>RabbitMQ</span></div>
+</div>
+</div>
+</section>
+<section id='portfolio'>
+<div class='wrap'>
+<p class='eyebrow'>Portfolio</p>
+<h2>Selected work</h2>
+<div class='grid'>
+<div class='card'>
+<p class='role'>Founder project</p>
+<h3>PlugToCart</h3>
+<p>AI-powered WhatsApp commerce. Autonomous agents interpret intent, invoke tools, query inventory, build carts, and initiate payments - end-to-end automation with structured outputs and idempotent transactions.</p>
+<div class='tags'><span class='tag'>AI Agents</span><span class='tag'>LLM Orchestration</span><span class='tag'>Node.js</span></div>
+<a class='card-link' href='https://plugtocart.ai' target='_blank' rel='noopener'>Visit site →</a>
+</div>
+<div class='card'>
+<p class='role'>Founder project</p>
+<h3>HireMule</h3>
+<p>AI career and job application assistant: resume optimization, tailored cover letters, AI headshot generation, and LinkedIn profile analysis to raise recruiter visibility.</p>
+<div class='tags'><span class='tag'>OpenAI API</span><span class='tag'>Prompt Engineering</span></div>
+<a class='card-link' href='https://hiremule.com' target='_blank' rel='noopener'>Visit site →</a>
+</div>
+<div class='card'>
+<p class='role'>AI fundraising platform</p>
+<h3>MerchFunder</h3>
+<p>AI-powered fundraising for nonprofits and charities. NestJS and PostgreSQL backend with a React frontend; scaled to 500+ donors with a 15% conversion lift and 60% jump in user engagement.</p>
+<div class='tags'><span class='tag'>NestJS</span><span class='tag'>React</span><span class='tag'>OpenAI</span><span class='tag'>GCP</span></div>
+</div>
+<div class='card'>
+<p class='role'>Wealth organization platform</p>
+<h3>Cova Inc.</h3>
+<p>Centralized Node.js API gateway serving a suite of microservices, plus a CI/CD pipeline on AWS. Cut API latency 30% and lifted deployment frequency 70%.</p>
+<div class='tags'><span class='tag'>Node.js</span><span class='tag'>GraphQL</span><span class='tag'>AWS</span><span class='tag'>Docker</span></div>
+</div>
+<div class='card'>
+<p class='role'>STEM education platform</p>
+<h3>STEMuli</h3>
+<p>Real-time collaboration and messaging for interactive STEM learning. Led the monolith-to-microservices migration with domain-driven design, cutting deployment time 70%.</p>
+<div class='tags'><span class='tag'>Socket.io</span><span class='tag'>BullMQ</span><span class='tag'>TypeScript</span></div>
+</div>
+<div class='card'>
+<p class='role'>Print e-commerce marketplace</p>
+<h3>Printivo</h3>
+<p>Scalable e-commerce serving thousands of customers. Built the Sell-on-Printivo merchant marketplace and secure REST APIs for mobile delivery applications.</p>
+<div class='tags'><span class='tag'>E-commerce</span><span class='tag'>REST APIs</span><span class='tag'>PostgreSQL</span></div>
+</div>
+</div>
+</div>
+</section>
+<section id='contact'>
+<div class='wrap'>
+<p class='eyebrow'>Contact</p>
+<h2>Let&rsquo;s connect</h2>
+<div class='contact-grid'>
+<div>
+<ul class='links'>
+<li><span class='lbl'>Email</span><a href='mailto:kheengz@gmail.com'>kheengz@gmail.com</a></li>
+<li><span class='lbl'>LinkedIn</span><a href='https://www.linkedin.com/in/kingsley-chinaka' target='_blank' rel='noopener'>linkedin.com/in/kingsley-chinaka</a></li>
+<li><span class='lbl'>GitHub</span><a href='https://github.com/kheengz' target='_blank' rel='noopener'>github.com/kheengz</a></li>
+<li><span class='lbl'>X</span><a href='https://x.com/kheengx' target='_blank' rel='noopener'>@kheengx</a></li>
+</ul>
+</div>
+<div>
+<form id='contactForm'>
+<label for='cf-name' style='font-size:.85rem;color:var(--mut)'>Name</label>
+<input id='cf-name' name='name' type='text' placeholder='Your name' required>
+<label for='cf-email' style='font-size:.85rem;color:var(--mut)'>Email</label>
+<input id='cf-email' name='email' type='email' placeholder='you@example.com' required>
+<label for='cf-msg' style='font-size:.85rem;color:var(--mut)'>Message</label>
+<textarea id='cf-msg' name='message' placeholder='What would you like to talk about?' required></textarea>
+<button class='btn primary' type='submit' style='border:none;cursor:pointer;font-family:inherit'>Send message</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class='wrap'>© 2026 Kingsley Chinaka · Boston, MA</div>
+</footer>
+<script is:inline>
+(function(){var b=document.getElementById('themeBtn');var set=function(t){document.documentElement.dataset.theme=t;localStorage.setItem('kc-theme',t);b.textContent=(t==='dark'?'Light mode':'Dark mode')};set(document.documentElement.dataset.theme||'light');b.addEventListener('click',function(){set(document.documentElement.dataset.theme==='dark'?'light':'dark')});var f=document.getElementById('contactForm');f.addEventListener('submit',function(ev){ev.preventDefault();var n=document.getElementById('cf-name').value;var e=document.getElementById('cf-email').value;var m=document.getElementById('cf-msg').value;var s='Portfolio inquiry from '+n;var body=m+'\n\nReply-to: '+e;window.location.href='mailto:kheengz@gmail.com?subject='+encodeURIComponent(s)+'&body='+encodeURIComponent(body)})})();
+</script>
+</body>
+</html>
